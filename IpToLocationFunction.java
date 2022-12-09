@@ -10,6 +10,15 @@ import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+Sure! Here's an example of an Apache Pulsar function written in Java that converts a byte array to a JSON object, adds a new field that converts an IP address to a location, and returns the JSON object as a string:
+
+
+This function takes in a byte array that represents a JSON object with an "ip" field, extracts the IP address from the JSON object, converts it to a location using the MaxMind GeoIP2 database, and adds the location data to the JSON object as a new field. The updated JSON object is then returned as a string.
+
+Note: In order to use the MaxMind GeoIP2 database, you will need to download the database file and add the necessary dependencies to your project. For more information, see the [MaxMind GeoIP
+
+**/
 public class IpToLocationFunction implements Function<byte[], String> {
   private static final String GEOIP_DATABASE_PATH = "/path/to/GeoLite2-City.mmdb";
 
