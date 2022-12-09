@@ -3,6 +3,9 @@
 Here is an example of a Java function that you can use in Apache Pulsar to convert GTFS traffic data to JSON:
 
 
+The function takes in a byte array as input, which represents GTFS traffic data in protobuf format. It parses the data using the GtfsRealtime.FeedMessage class and converts it to a JSON string using the JsonFormat class from the Google protobuf library. Finally, it returns the JSON string as the output of the function.
+
+Note: This is just an example and will likely need to be modified to fit your specific use case. You will need to import the necessary classes and define the GtfsRealtime.FeedMessage class based on your data and requirements.
 
 */
 
