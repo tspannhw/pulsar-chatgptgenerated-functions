@@ -1,6 +1,10 @@
 /**
 Sure, here's a simple Java application that you can run on a Raspberry Pi to read sensor data, build a JSON object, and send it to a Pulsar topic with a JSON schema. This example assumes that you have a Raspberry Pi with Java installed, as well as a Pulsar instance running and available for use.
 
+This example uses the Pulsar client library to send a message with sensor data to a Pulsar topic. The sensor data is represented as a JSON object and is sent to the topic using a JSON schema. This allows Pulsar to ensure that all messages on the topic have a consistent structure and format.
+
+I hope this helps! Let me know if you have any other questions.
+
 */
 
 import java.util.HashMap;
