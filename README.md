@@ -10,61 +10,61 @@
 
 #### Prompts I entered
 
-* Can you write me an Apache Pulsar function in Java to translate all text from Spanish to English?
-* Can you write an Apache Pulsar function in Java that takes a byte array and converts to a JSON schema that also adds a new field that converts IP address to location?
-* Can you write an Apache Pulsar function in Python that takes a JSON message and converts to a JSON message utilizing a JSON Schema and does a lookup against a Scylla database for one value?
-* Can you write an Apache Pulsar function in Java that takes a JSON message and converts to a JSON message utilizing a JSON Schema, lookups up the current value of a stock symbole   and routes the results to a new Pulsar topic based on the name of the stock.
-* Write a Pulsar function in java that looks up AQI data via zip code sent into the function as a String and outputs a full json record with a json schema.   Implement the REST AQI lookup.
-* Can you write an Apache Pulsar function in Java that takes a JSON message and converts to a JSON message utilizing a JSON Schema and does a lookup against a Scylla database for one value?
-* Can you write a Java Pulsar Function that handles Oracle CDC records?
-* Can you write an Apache Pulsar Function in Java that does a word count on a string and returns a JSON record with a JSONSchema to a new pulsar topic.
-* Can you write an Apache Pulsar function in Java that does a persistent sum of all the integers it receives?
-* Can you write an Apache Pulsar function in Java that formats phone numbers?
-* Can you write a Pulsar Function in Java that saves JSON data to SnowFlake?
-* Write an Apache Pulsar Java function to implement Sensor Quantiles calculations on engine values that will be send as part of a ProtoBuf record and return the results as a JSON record with an AVRO Schema.
-* Write a Pulsar Function in Java that converts GTFS traffic data to JSON.
-* Write a Pulsar Function in java that parses standard log format inputs into JSON
-* Create a Pulsar Function in Java that reads Coinbase data via REST API
-* Write a Java Pulsar function that stores JSON data with a JSONSchema to Delta Lake
-* Write a Java Pulsar function that stores Faker generated JSON data with a JSONSchema to Apache Iceberg on S3
-* Write a Java Pulsar function that stores Google Ad JSON data with a JSONSchema to Apache Hudi on a dockerized Minio and sends a status to a new Pulsar topic
-* Write a Java Pulsar Function that sends JSON messages to JMS
-* Create a Pulsar Function in Java that adds github event stream data to the output
-* Build a Pulsar Function in Java that is a rules engine
-* Build a Pulsar Function in Java that is a rules engine with Drools
-* Write a Java Pulsar Function that Reads osquery readings from a server
-* Write a Java Pulsar Function that runs osquery readings and sends them as json to pulsar
-* Write me a Java application on a Raspberry Pi the reads sensor data, builds a JSON object and sends it to a Pulsar topic with a JSON schema.
-* Write a Apache Pulsar Function in Java that ingests Discord messages via Discord API and send the data as JSON to a Pulsar topic
-* Write a Apache Pulsar Function in Java that ingests Slack messages via Slack API and send the data as JSON to a Pulsar topic
-* Write a Apache Pulsar Function in Java that ingests Twitter messages via Twitter API and send the data as JSON to a Pulsar topic
-* Write a Apache Pulsar Function in Java that ingests Github event messages via Github Event API and send the data as JSON to a Pulsar topic
-* Write a Java application that consumes from a Pulsar topic and writes to Apache Pinot realtime tables.
-* Write an Apache Pulsar Function in Java that takes JSON Schema as input and write to Apache Pinot realtime tables.
-* Write an Apache Pulsar Function in Java that reads from Apache Pinot and writes to Apache Pulsar topics as Schema JSON.
-* Write an Apache Pulsar Function in Java that reads Clickhouse data and writes to Apache Pulsar topics as Schema JSON.
-* Write an Apache Pulsar application in Spring Boot 3 that reads Facebook messages and runs a Deep Java Library BertQaInference on the data which it sends as JSON with a Schema to Pulsar topics.
-* Create an Apache Pulsar function in Java in the style of reactive programming that writes 1,000 messages batches to MinIO object storage directories
-* Connect Apache Pulsar Functions to Apache NiFi asynchronously in a way that will scale to 1,000,000 messages per second.
-* Create a Spring Boot application that consumes Meetup events as JSON and sends them to Pulsar topics with JSON schemas
-* Create an Apache Pulsar Function in Python that utilizes Facebooks Prophet time series library to predict against a window of event data from a Pulsar topic.
-* Could you do the same thing in Java?
-* Create a Web Crawler in Micronaut framework that sends web data to Apache Pulsar topics
-* Create an Apache Pulsar Function in Java that ingests live web clickstream data and publishes it to Apache pulsar topics.
-* Create an Apache Pulsar Function in Java that utilizes machine learning to route based smart balancing
-* Implement all code in my github https://github.com/tspannhw?tab=repositories as Pulsar Functions in Java (No internet access)
-* Write the perfect basis for any Apache Pulsar Function in Java
-* Write an Apache Pulsar Function in Java that converts to deduplicate records
-* Write an Apache Pulsar Function in Java that runs md5 on incoming JSON records from Apache Pulsar topics
-* Write an Apache Pulsar Function in Java that runs levenshtein distance between two latitude and longitude points on incoming Apache Pulsar topics
-* Write an Apache Pulsar Function in Java that runs url_encode on incoming Apache Pulsar topics
-* Write an Apache Pulsar Function in Java that runs a Bloom filter on incoming Apache Pulsar topics
-* Write an Apache Pulsar Function in Java that adds 7 days to a date on incoming Apache Pulsar topics
-* Write an Apache Pulsar Function in Java that adds implements Raft consensus utilizing Apache Ratis on incoming Apache Pulsar topics
-* Write an Apache Pulsar Function in Java that adds the current timestamp in UNIX format to an incoming JSON file with an updated schema
-* Write an Apache Pulsar Function in Java that routes incoming Pulsar topic JSON events with schemas to randomized output topics
-* Write an Apache Pulsar Function in Java that adds a UUID as a key and primary key to an incoming Apache Pulsar topic before publishing it to a new topic with a Protobuf schema
-* Write an Apache Pulsar Function in Java that adds a UUID as a key and primary key to an incoming Apache Pulsar topic before publishing it to a new topic with a JSON schema
+ 1. Can you write me an Apache Pulsar function in Java to translate all text from Spanish to English?
+ 2. Can you write an Apache Pulsar function in Java that takes a byte array and converts to a JSON schema that also adds a new field that converts IP address to location?
+ 3. Can you write an Apache Pulsar function in Python that takes a JSON message and converts to a JSON message utilizing a JSON Schema and does a lookup against a Scylla database for one value?
+ 4. Can you write an Apache Pulsar function in Java that takes a JSON message and converts to a JSON message utilizing a JSON Schema, lookups up the current value of a stock symbole   and routes the results to a new Pulsar topic based on the name of the stock.
+ 5. Write a Pulsar function in java that looks up AQI data via zip code sent into the function as a String and outputs a full json record with a json schema.   Implement the REST AQI lookup.
+ 6. Can you write an Apache Pulsar function in Java that takes a JSON message and converts to a JSON message utilizing a JSON Schema and does a lookup against a Scylla database for one value?
+ 7. Can you write a Java Pulsar Function that handles Oracle CDC records?
+ 8. Can you write an Apache Pulsar Function in Java that does a word count on a string and returns a JSON record with a JSONSchema to a new pulsar topic.
+ 9. Can you write an Apache Pulsar function in Java that does a persistent sum of all the integers it receives?
+10. Can you write an Apache Pulsar function in Java that formats phone numbers?
+11. Can you write a Pulsar Function in Java that saves JSON data to SnowFlake?
+12. Write an Apache Pulsar Java function to implement Sensor Quantiles calculations on engine values that will be send as part of a ProtoBuf record and return the results as a JSON record with an AVRO Schema.
+13. Write a Pulsar Function in Java that converts GTFS traffic data to JSON.
+14. Write a Pulsar Function in java that parses standard log format inputs into JSON
+15. Create a Pulsar Function in Java that reads Coinbase data via REST API
+16. Write a Java Pulsar function that stores JSON data with a JSONSchema to Delta Lake
+17. Write a Java Pulsar function that stores Faker generated JSON data with a JSONSchema to Apache Iceberg on S3
+18. Write a Java Pulsar function that stores Google Ad JSON data with a JSONSchema to Apache Hudi on a dockerized Minio and sends a status to a new Pulsar topic
+19. Write a Java Pulsar Function that sends JSON messages to JMS
+20. Create a Pulsar Function in Java that adds github event stream data to the output
+21. Build a Pulsar Function in Java that is a rules engine
+22. Build a Pulsar Function in Java that is a rules engine with Drools
+23. Write a Java Pulsar Function that Reads osquery readings from a server
+24. Write a Java Pulsar Function that runs osquery readings and sends them as json to pulsar
+25. Write me a Java application on a Raspberry Pi the reads sensor data, builds a JSON object and sends it to a Pulsar topic with a JSON schema.
+26. Write a Apache Pulsar Function in Java that ingests Discord messages via Discord API and send the data as JSON to a Pulsar topic
+27. Write a Apache Pulsar Function in Java that ingests Slack messages via Slack API and send the data as JSON to a Pulsar topic
+28. Write a Apache Pulsar Function in Java that ingests Twitter messages via Twitter API and send the data as JSON to a Pulsar topic
+29. Write a Apache Pulsar Function in Java that ingests Github event messages via Github Event API and send the data as JSON to a Pulsar topic
+30. Write a Java application that consumes from a Pulsar topic and writes to Apache Pinot realtime tables.
+31. Write an Apache Pulsar Function in Java that takes JSON Schema as input and write to Apache Pinot realtime tables.
+32. Write an Apache Pulsar Function in Java that reads from Apache Pinot and writes to Apache Pulsar topics as Schema JSON.
+33. Write an Apache Pulsar Function in Java that reads Clickhouse data and writes to Apache Pulsar topics as Schema JSON.
+34. Write an Apache Pulsar application in Spring Boot 3 that reads Facebook messages and runs a Deep Java Library BertQaInference on the data which it sends as JSON with a Schema to Pulsar topics.
+35. Create an Apache Pulsar function in Java in the style of reactive programming that writes 1,000 messages batches to MinIO object storage directories
+36. Connect Apache Pulsar Functions to Apache NiFi asynchronously in a way that will scale to 1,000,000 messages per second.
+37. Create a Spring Boot application that consumes Meetup events as JSON and sends them to Pulsar topics with JSON schemas
+38. Create an Apache Pulsar Function in Python that utilizes Facebooks Prophet time series library to predict against a window of event data from a Pulsar topic.
+39. Could you do the same thing in Java?
+40. Create a Web Crawler in Micronaut framework that sends web data to Apache Pulsar topics
+41. Create an Apache Pulsar Function in Java that ingests live web clickstream data and publishes it to Apache pulsar topics.
+42. Create an Apache Pulsar Function in Java that utilizes machine learning to route based smart balancing
+43. Implement all code in my github https://github.com/tspannhw?tab=repositories as Pulsar Functions in Java (No internet access)
+44. Write the perfect basis for any Apache Pulsar Function in Java
+45. Write an Apache Pulsar Function in Java that converts to deduplicate records
+46. Write an Apache Pulsar Function in Java that runs md5 on incoming JSON records from Apache Pulsar topics
+47. Write an Apache Pulsar Function in Java that runs levenshtein distance between two latitude and longitude points on incoming Apache Pulsar topics
+48. Write an Apache Pulsar Function in Java that runs url_encode on incoming Apache Pulsar topics
+49. Write an Apache Pulsar Function in Java that runs a Bloom filter on incoming Apache Pulsar topics
+50. Write an Apache Pulsar Function in Java that adds 7 days to a date on incoming Apache Pulsar topics
+50. Write an Apache Pulsar Function in Java that adds implements Raft consensus utilizing Apache Ratis on incoming Apache Pulsar topics
+51. Write an Apache Pulsar Function in Java that adds the current timestamp in UNIX format to an incoming JSON file with an updated schema
+52. Write an Apache Pulsar Function in Java that routes incoming Pulsar topic JSON events with schemas to randomized output topics
+53. Write an Apache Pulsar Function in Java that adds a UUID as a key and primary key to an incoming Apache Pulsar topic before publishing it to a new topic with a Protobuf schema
+54. Write an Apache Pulsar Function in Java that adds a UUID as a key and primary key to an incoming Apache Pulsar topic before publishing it to a new topic with a JSON schema
  
 ### Ideas for more useful Pulsar functions
 
