@@ -1,8 +1,10 @@
 /**
 
-Drools is a business rule management system (BRMS) that provides a set of tools for defining, managing, and executing business rules. You can use Drools to build a rules engine that allows you to define complex rules and apply them to data in your application.
+Drools is a popular open-source rules engine that provides a way to define and execute rules in a declarative manner. You can use Drools to implement a rules engine in your Pulsar Function written in Java.
 
-Here is an example of a Pulsar Function written in Java that uses Drools to implement a rules engine:
+Here is an example of a Pulsar Function that uses Drools to implement a rules engine:
+
+
 
 */
 import org.apache.pulsar.functions.api.Context;
@@ -75,4 +77,4 @@ public class RulesEngineFunction implements Function<String, String> {
 
     // Fire the rules and return the result
     kieSession.fireAllRules();
-   
+  }
