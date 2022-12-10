@@ -7,6 +7,7 @@ In this example, the process method receives a PulsarMessage object that contain
 
 Note that this example uses the URLEncoder class from the Java Standard Library, but other libraries, such as the Apache Commons Codec library, could also be used to encode URLs. The choice of library will depend on your specific requirements and preferences.
 
+
 */
 
 public class URLEncodeFunction implements PulsarFunction<String, String> {
