@@ -65,6 +65,8 @@
 52. Write an Apache Pulsar Function in Java that routes incoming Pulsar topic JSON events with schemas to randomized output topics
 53. Write an Apache Pulsar Function in Java that adds a UUID as a key and primary key to an incoming Apache Pulsar topic before publishing it to a new topic with a Protobuf schema
 54. Write an Apache Pulsar Function in Java that adds a UUID as a key and primary key to an incoming Apache Pulsar topic before publishing it to a new topic with a JSON schema
+55. Write an Apache Pulsar Function in Java that consumes Pulsar avro messages and sends them to an HTTP end-point as JSON and also publishing it to a new topic with a JSON schema and finally generate a deploy script for this Pulsar function that was just created.
+56. finally generate a deploy script for this Pulsar function that was just created.
  
 ### Ideas for more useful Pulsar functions
 
@@ -107,3 +109,4 @@
 * https://pulsar.apache.org/docs/2.10.x/functions-overview/
 * https://docs.streamnative.io/platform/v1.1.0/concepts/pulsar-function-concepts
 * https://github.com/ColinEberhardt/awesome-public-streaming-datasets
+* https://www.serverless.com/examples
